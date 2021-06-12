@@ -13,6 +13,7 @@
 		2C16F1E42674BC37003F3EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C16F1E22674BC37003F3EF7 /* Main.storyboard */; };
 		2C16F1E62674BC37003F3EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C16F1E52674BC37003F3EF7 /* Assets.xcassets */; };
 		2C16F1E92674BC37003F3EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C16F1E72674BC37003F3EF7 /* LaunchScreen.storyboard */; };
+		2C19956B2674E09600A8E370 /* NearbyConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19956A2674E09600A8E370 /* NearbyConnectivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C16F1E52674BC37003F3EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C16F1E82674BC37003F3EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C16F1EA2674BC37003F3EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C19956A2674E09600A8E370 /* NearbyConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyConnectivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2C16F1DC2674BC37003F3EF7 /* AppDelegate.swift */,
 				2C16F1DE2674BC37003F3EF7 /* SceneDelegate.swift */,
 				2C16F1E02674BC37003F3EF7 /* ViewController.swift */,
+				2C19956A2674E09600A8E370 /* NearbyConnectivity.swift */,
 				2C16F1E22674BC37003F3EF7 /* Main.storyboard */,
 				2C16F1E52674BC37003F3EF7 /* Assets.xcassets */,
 				2C16F1E72674BC37003F3EF7 /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 				2C16F1E12674BC37003F3EF7 /* ViewController.swift in Sources */,
 				2C16F1DD2674BC37003F3EF7 /* AppDelegate.swift in Sources */,
 				2C16F1DF2674BC37003F3EF7 /* SceneDelegate.swift in Sources */,
+				2C19956B2674E09600A8E370 /* NearbyConnectivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
