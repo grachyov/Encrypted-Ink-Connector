@@ -2,7 +2,7 @@
 
 import UIKit
 
-var launchURL: URL?
+var wcLink: String?
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     private func processURLContexts(_ URLContexts: Set<UIOpenURLContext>) {
         if let url = URLContexts.first?.url {
-            launchURL = url
+            wcLink = url.absoluteString
         }
     }
     
