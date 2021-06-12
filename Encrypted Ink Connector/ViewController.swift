@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  Encrypted Ink Connector
-//
-//  Created by Ivan Grachev on 12.06.2021.
-//
+// Copyright © 2021 Encrypted Ink. All rights reserved.
 
 import UIKit
 
@@ -14,6 +9,4 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
 }
-
