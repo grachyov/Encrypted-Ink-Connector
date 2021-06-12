@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     private func startAdvertisingIfNeeded(link: String) {
-        guard advertisedLink != link, link.hasPrefix("wc") else { return }
+        guard link.hasPrefix("wc") else { return }
         advertisedLink = link
         connectivity = NearbyConnectivity(link: link)
     }
