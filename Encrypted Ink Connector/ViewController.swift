@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        connectionLabel.text = "Connecting\nwith MacOS"
+        connectionLabel.text = "Scan QR code\nto connect"
         startBlinking()
         
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(showScanner))
