@@ -16,7 +16,6 @@ class NearbyConnectivity: NSObject {
         devicePeerID = MCPeerID(displayName: UUID().uuidString)
         
         serviceAdvertiser = MCNearbyServiceAdvertiser(peer: devicePeerID, discoveryInfo: ["wclink": link], serviceType: serviceIdentifier)
-        serviceAdvertiser.delegate = self
         
         autoConnect()
     }
@@ -35,11 +34,4 @@ class NearbyConnectivity: NSObject {
         }
     }
     
-}
-
-// MARK: - Advertiser Delegate
-extension NearbyConnectivity: MCNearbyServiceAdvertiserDelegate {
-
-    func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) { }
-
 }
